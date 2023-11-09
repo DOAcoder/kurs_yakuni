@@ -1,0 +1,67 @@
+.wrapper {
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+
+  .kurs_head {
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 2rem;
+    h2 {
+      font-weight: 700;
+      font-size: 25px;
+      margin-bottom: 0.5rem;
+    }
+
+
+    .serviceAdd_btn{
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      border-radius: 10px;
+      background-color: #0e7490;
+      
+      button{
+        width: 100%;
+      }
+    }
+  }
+
+  .edit_btn {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border: transparent;
+
+    &:hover {
+          opacity: 0.7;
+    }
+  }
+
+  .table_box {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  }
+
+
+  .tr {
+    &:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+  }
+}
